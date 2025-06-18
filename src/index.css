@@ -12,9 +12,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-:root input{
-  color-scheme: light dark;
-}
+
 body{
   background-color: hsla(52, 84%, 80%, 0.904);
 }
@@ -34,6 +32,11 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+}
+
+form{
+  color-scheme: light dark;
+  color: black;
 }
 
 h1 {

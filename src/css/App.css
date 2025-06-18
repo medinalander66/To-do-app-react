@@ -48,6 +48,9 @@ button {
     margin-left: auto;
 }
 
+input{
+    transition: background-color 0.3s ease, color 0.3s ;
+}
 .light input {
   background-color: #ffffff;
   color: #222;
@@ -59,3 +62,4 @@ button {
   color: #f5f5f5;
   border: 1px solid #555;
 }
+

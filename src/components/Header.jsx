@@ -11,12 +11,8 @@ export default function Header(){
     }
 
     useEffect( () => {
-        document.body.className = darkMode ? 'dark' : 'light';
-        const toggleTheme=document.querySelector("toggle-theme")
-        
+        document.body.className = darkMode ? 'dark' : 'light';        
     }, [darkMode])
-
-
 
     return(
         <>

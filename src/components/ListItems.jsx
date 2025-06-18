@@ -1,6 +1,7 @@
 import { act } from "react";
 import "../css/Container.css";
 import Button from "./Button";
+import removeIcon from '../assets/remove.png'
 
 export default function ListItems({ tasks, action, actionComplete, actionRename}) {
   return (
@@ -21,7 +22,7 @@ export default function ListItems({ tasks, action, actionComplete, actionRename}
             <div className="list-content-options" >
                           <img
               onClick={() => action(index)}
-              src="../src/assets/remove.png"
+              src={removeIcon}
               alt="Delete Image"
               style={{ maxWidth: "25px", maxHeight: "25px", cursor: "pointer" }}
             />

@@ -1,7 +1,8 @@
 .parent-container {
     display: flex;
     flex-direction: column;
-    box-shadow: 0px 0px 5px;
+    box-shadow: 0px 0px 5px rgb(20, 14, 14);
+    
     border: none;
 }
 

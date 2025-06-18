@@ -2,6 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import ToDoContainer from './components/Container/ToDoContainer'
 import Header from './components/Header'
+import './css/App.css'
 
 function App() {
   const [count, setCount] = useState(0)
